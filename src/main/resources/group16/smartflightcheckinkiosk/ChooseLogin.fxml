@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="group16.smartflightcheckinkiosk.Controller.ChooseLoginController">
+   <children>
+      <FlowPane prefHeight="400.0" prefWidth="600.0">
+         <AnchorPane layoutY="0.0" prefHeight="50.0" prefWidth="600.0" style="-fx-background-color: #87cefa;">
+            <children>
+               <Label fx:id="confirm4" layoutX="51.0" layoutY="13.0" prefHeight="22.0" prefWidth="195.0" text="Log In">
+                  <font>
+                     <Font name="Myanmar MN" size="20.0" />
+                  </font>
+               </Label>
+            </children>
+         </AnchorPane>
+         <children>
+            <Pane prefHeight="387.0" prefWidth="401.0">
+               <children>
+<!--                  <Text layoutX="127.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log In" wrappingWidth="128.240234375">-->
+<!--                     <font>-->
+<!--                        <Font size="40.0" />-->
+<!--                     </font>-->
+<!--                  </Text>-->
+                  <Text layoutX="77.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please choose your identity" wrappingWidth="272.890625">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Text>
+                  <Pane layoutX="39.0" layoutY="100.0" prefHeight="140.0" prefWidth="145.0">
+                      <AnchorPane layoutY="0.0" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #87cefa;">
+                          <children>
+                              <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="50.0" layoutY="20.0" onMouseClicked="#gotoPassengerLogin">
+                                  <image>
+                                      <Image url="@img/checklogin-p.png" />
+                                  </image>
+                              </ImageView>
+                              <Label  layoutX="100.0" layoutY="180.0" prefHeight="22.0" prefWidth="145.0" text="Passenger">
+
+                                  <font>
+                                      <Font name="Myanmar MN" size="13.0" />
+                                  </font>
+                              </Label>
+                          </children>
+                      </AnchorPane>
+<!--                     <children>-->
+<!--                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="140.0" stroke="BLACK" strokeType="INSIDE" width="145.0" />-->
+<!--                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="1.0" onMouseClicked="#gotoPassengerLogin" prefHeight="140.0" prefWidth="145.0" text="Passenger">-->
+<!--                           <font>-->
+<!--                              <Font size="25.0" />-->
+<!--                           </font>-->
+<!--                        </Label>-->
+<!--                     </children>-->
+                  </Pane>
+                  <Pane layoutX="300.0" layoutY="100.0" prefHeight="140.0" prefWidth="145.0">
+                      <AnchorPane layoutY="0.0" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #87cefa;">
+                          <children>
+                              <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="50.0" layoutY="20.0" onMouseClicked="#gotoStaffLogin">
+                                  <image>
+                                      <Image url="@img/check-login-s.png" />
+                                  </image>
+                              </ImageView>
+                              <Label  layoutX="100" layoutY="180.0" prefHeight="22.0" prefWidth="145.0" text="Staff">
+
+                                  <font>
+                                      <Font name="Myanmar MN" size="13.0" />
+                                  </font>
+                              </Label>
+                          </children>
+                      </AnchorPane>
+<!--                     <children>-->
+<!--                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="140.0" stroke="BLACK" strokeType="INSIDE" width="145.0" />-->
+<!--                        <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#gotoStaffLogin" prefHeight="140.0" prefWidth="145.0" text="Staff" textAlignment="CENTER">-->
+<!--                           <font>-->
+<!--                              <Font size="25.0" />-->
+<!--                           </font>-->
+<!--                        </Label>-->
+<!--                     </children>-->
+                  </Pane>
+               </children>
+            </Pane>
+         </children>
+      </FlowPane>
+   </children>
+</AnchorPane>

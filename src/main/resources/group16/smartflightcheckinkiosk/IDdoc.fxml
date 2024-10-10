@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="toIDdocPage" prefHeight="200.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="group16.smartflightcheckinkiosk.Controller.IDdocController">
+   <children>
+      <AnchorPane layoutY="12.0" prefHeight="47.0" prefWidth="400.0" style="-fx-background-color: #87cefa;">
+         <children>
+            <Label fx:id="confirm4" layoutX="30.0" layoutY="13.0" prefHeight="22.0" prefWidth="359.0" text="Please upload your ID Document named with&quot;login.csv&quot;">
+               <font>
+                  <Font name="Myanmar MN" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <CheckBox fx:id="id_docField" layoutX="116.0" layoutY="100.0" mnemonicParsing="false" text="Confirm" />
+      <Button fx:id="ok" layoutX="183.0" layoutY="146.0" mnemonicParsing="false" onAction="#ok" prefHeight="26.0" prefWidth="55.0" text="OK" />
+      <Button fx:id="back" layoutX="61.0" layoutY="146.0" mnemonicParsing="false" onAction="#back" prefHeight="26.0" prefWidth="55.0" style="-fx-background-color: #87cefa;" text="BACK" />
+      <ImageView fitHeight="85.0" fitWidth="83.0" layoutX="288.0" layoutY="85.0">
+         <image>
+            <Image url="@img/doc.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

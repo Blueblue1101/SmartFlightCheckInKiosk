@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/15.0.1"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="group16.smartflightcheckinkiosk.Controller.BoardingpassTicketController"
+            prefHeight="200.0" prefWidth="400.0">
+    <children>
+        <FlowPane prefHeight="150.0" prefWidth="400.0">
+            <children>
+                <Pane prefHeight="150.0" prefWidth="400.0">
+                    <AnchorPane layoutY="0.0" prefHeight="50.0" prefWidth="400.0" style="-fx-background-color: #87cefa;">
+                        <children>
+                            <Label fx:id="confirm4" layoutX="51.0" layoutY="13.0" prefHeight="22.0" prefWidth="195.0" text="Ticket for Check-in Luggage">
+                                <font>
+                                    <Font name="Myanmar MN" size="13.0" />
+                                </font>
+                            </Label>
+                        </children>
+                    </AnchorPane>
+                    <children>
+<!--                        <Text fill="BLUE" layoutX="14.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Check-in-baggage Tag" underline="true" wrappingWidth="197.240234375">-->
+<!--                            <font>-->
+<!--                                <Font size="15.0" />-->
+<!--                            </font>-->
+<!--                        </Text>-->
+                        <Text layoutX="13.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="owner:" />
+<!--                        <Label alignment="CENTER" layoutX="14.0" layoutY="153.0" opacity="0.3" prefHeight="25.0" prefWidth="173.0" rotate="10.0" text="have a nice journey!" textFill="BLUE">-->
+<!--                            <font>-->
+<!--                                <Font size="15.0" />-->
+<!--                            </font>-->
+<!--                            <padding>-->
+<!--                                <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />-->
+<!--                            </padding>-->
+<!--                            <opaqueInsets>-->
+<!--                                <Insets top="2.0" />-->
+<!--                            </opaqueInsets>-->
+<!--                        </Label>-->
+                        <Text layoutX="13.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="flight no:" />
+                        <Text fx:id="Surname" fill="BLUE" layoutX="82.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="String Surname" />
+                        <Text fx:id="FlightNumber" fill="BLUE" layoutX="82.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="String FlightNumber" />
+                        <Text layoutX="14.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="tag:" />
+                        <Text fx:id="Tag" fill="BLUE" layoutX="57.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="String Tag" />
+                        <Text layoutX="14.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="counter:" />
+                        <Text fx:id="CounterNumber" fill="BLUE" layoutX="70.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="String CounterNumber" />
+                    </children>
+                </Pane>
+            </children>
+        </FlowPane>
+        <ImageView fitHeight="150.0" fitWidth="170.0" layoutX="230.0" layoutY="50.0">
+            <image>
+                <Image url="@img/boardingpass-checkin.png" />
+            </image>
+        </ImageView>
+    </children>
+
+</AnchorPane>

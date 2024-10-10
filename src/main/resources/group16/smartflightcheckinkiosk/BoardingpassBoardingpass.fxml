@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane prefHeight="200.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="group16.smartflightcheckinkiosk.Controller.BoardingpassBoardingpassController">
+    <children>
+
+
+        <FlowPane prefHeight="180.0" prefWidth="600.0">
+            <AnchorPane layoutY="12.0" prefHeight="47.0" prefWidth="400.0" style="-fx-background-color: #87cefa;">
+                <children>
+                    <Label fx:id="confirm4" layoutX="51.0" layoutY="13.0" prefHeight="22.0" prefWidth="195.0" text="Boarding pass">
+                        <font>
+                            <Font name="Myanmar MN" size="13.0" />
+                        </font>
+                    </Label>
+                </children>
+            </AnchorPane>
+
+            <children>
+                <Pane prefHeight="200.0" prefWidth="401.0">
+                    <children>
+
+                        <Text layoutX="37.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="name:" />
+<!--                        <Label alignment="CENTER" layoutX="208.0" layoutY="34.0" opacity="0.41" prefHeight="25.0" prefWidth="173.0" rotate="10.0" text="have a nice journey!" textFill="BLUE">-->
+<!--                            <font>-->
+<!--                                <Font size="15.0" />-->
+<!--                            </font>-->
+<!--                            <padding>-->
+<!--                                <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />-->
+<!--                            </padding>-->
+<!--                            <opaqueInsets>-->
+<!--                                <Insets top="2.0" />-->
+<!--                            </opaqueInsets>-->
+<!--                        </Label>-->
+                        <Text layoutX="37.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="flight number:" />
+                        <Text layoutX="37.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="timetable:" />
+                        <Text fx:id="Surname" fill="BLUE" layoutX="186.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="String Surname" />
+                        <Text fx:id="FlightNumber" fill="BLUE" layoutX="185.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="String FlightNumber" />
+                        <Text fx:id="Timetable" fill="BLUE" layoutX="185.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="String Timetable" />
+                        <Text layoutX="37.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="seat:" />
+                        <Text fx:id="SeatNumber" fill="BLUE" layoutX="185.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="String SeatNumber" />
+                        <Text layoutX="32.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" from：" />
+                        <Text layoutX="174.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="to：" />
+                        <Text fx:id="StartPoint" fill="BLUE" layoutX="71.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="String StartPoint" />
+                        <Text fx:id="Destination" fill="BLUE" layoutX="196.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="String Destination" />
+                    </children>
+                </Pane>
+            </children>
+        </FlowPane>
+<!--        <Button fx:id="ok" layoutX="300.0" layoutY="166.0" mnemonicParsing="false" onAction="#ok" prefHeight="26.0" prefWidth="55.0" text="OK" />-->
+        <ImageView fitHeight="200" fitWidth="300.0" layoutX="400.0">
+            <image>
+                <Image url="@img/login_plot.jpeg" />
+            </image>
+        </ImageView>
+    </children>
+
+</AnchorPane>

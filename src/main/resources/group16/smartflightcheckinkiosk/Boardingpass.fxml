@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="group16.smartflightcheckinkiosk.Controller.BoardingpassController">
+    <children>
+        <FlowPane prefHeight="400.0" prefWidth="600.0">
+            <AnchorPane layoutY="12.0" prefHeight="47.0" prefWidth="600.0" style="-fx-background-color: #87cefa;">
+                <children>
+                    <Label fx:id="confirm4" layoutX="51.0" layoutY="13.0" prefHeight="22.0" prefWidth="300.0" text="Boardingpass-loading">
+                        <font>
+                            <Font name="Myanmar MN" size="20.0" />
+                        </font>
+                    </Label>
+                </children>
+            </AnchorPane>
+            <children>
+                <Pane prefHeight="387.0" prefWidth="401.0">
+                    <children>
+
+                        <Text layoutX="77.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Printing your:" wrappingWidth="272.890625">
+                            <font>
+                                <Font size="17.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="52.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1.Boarding pass" />
+                        <Text layoutX="52.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2.Tag (each for your check-in baggages)" />
+                        <Text layoutX="52.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3.tickets for your check-in-baggages (please drop your baggages to the bag-drop-counter and the number of which is on the tickets" wrappingWidth="263.4921875" />
+<!--                        <Circle fill="DODGERBLUE" layoutX="330.0" layoutY="329.0" radius="44.0" stroke="BLACK" strokeType="INSIDE" />-->
+                        <Button fx:id="label_ok" layoutX="183.0" layoutY="250.0" mnemonicParsing="false" onMouseClicked="#onOKClick" prefHeight="26.0" prefWidth="55.0" text="OK" />
+                        <Button fx:id="label_help" layoutX="61.0" layoutY="250.0" mnemonicParsing="false" onMouseClicked="#onHelpClick" prefHeight="26.0" prefWidth="55.0" style="-fx-background-color: #87cefa;" text="BACK" />
+<!--                        <Label fx:id="label_ok" alignment="CENTER" layoutX="286.0" layoutY="285.0" prefHeight="88.0" prefWidth="88.0" text="ok" textFill="WHITE" onMouseClicked="#onOKClick">-->
+<!--                            <font>-->
+<!--                                <Font size="29.0" />-->
+<!--                            </font>-->
+<!--                            <padding>-->
+<!--                                <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />-->
+<!--                            </padding>-->
+<!--                            <opaqueInsets>-->
+<!--                                <Insets top="2.0" />-->
+<!--                            </opaqueInsets>-->
+<!--                        </Label>-->
+<!--                        <Circle fill="#c2c6c9" layoutX="65.0" layoutY="329.0" radius="44.0" stroke="BLACK" strokeType="INSIDE" />-->
+<!--                        <Label fx:id="label_help" alignment="CENTER" layoutX="21.0" layoutY="285.0" prefHeight="88.0" prefWidth="88.0" text="need help" textFill="WHITE" onMouseClicked="#onHelpClick">-->
+<!--                            <font>-->
+<!--                                <Font size="16.0" />-->
+<!--                            </font>-->
+<!--                            <opaqueInsets>-->
+<!--                                <Insets top="2.0" />-->
+<!--                            </opaqueInsets>-->
+<!--                            <padding>-->
+<!--                                <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />-->
+<!--                            </padding>-->
+<!--                        </Label>-->
+                    </children>
+                </Pane>
+            </children>
+        </FlowPane>
+    </children>
+</AnchorPane>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane prefHeight="300.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="group16.smartflightcheckinkiosk.Controller.BoardingpassTagController">
+    <children>
+        <FlowPane prefHeight="300.0" prefWidth="200.0">
+            <AnchorPane layoutY="12.0" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #87cefa;">
+                <children>
+                    <Label fx:id="confirm4" layoutX="20.0" layoutY="13.0" prefHeight="22.0" prefWidth="195.0" text="Tag for Carry-on Luggage">
+                        <font>
+                            <Font name="Myanmar MN" size="13.0" />
+                        </font>
+                    </Label>
+                </children>
+            </AnchorPane>
+            <children>
+                <Pane prefHeight="200.0" prefWidth="200.0">
+                    <children>
+
+                        <Text layoutX="13.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="owner:" />
+<!--                        <Label alignment="CENTER" layoutX="14.0" layoutY="153.0" opacity="0.3" prefHeight="25.0" prefWidth="173.0" rotate="10.0" text="have a nice journey!" textFill="BLUE">-->
+<!--                            <font>-->
+<!--                                <Font size="15.0" />-->
+<!--                            </font>-->
+<!--                            <padding>-->
+<!--                                <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />-->
+<!--                            </padding>-->
+<!--                            <opaqueInsets>-->
+<!--                                <Insets top="2.0" />-->
+<!--                            </opaqueInsets>-->
+<!--                        </Label>-->
+                        <Text layoutX="13.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="flight no:" />
+                        <Text fx:id="Surname" fill="BLUE" layoutX="82.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="String Surname" />
+                        <Text fx:id="FlightNumber" fill="BLUE" layoutX="82.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="String FlightNumber" />
+                        <Text layoutX="14.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="tag:" />
+                        <Text fx:id="Tag" fill="BLUE" layoutX="57.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="String Tag" />
+                    </children>
+                </Pane>
+            </children>
+
+        </FlowPane>
+<!--        <Button fx:id="ok" layoutX="300.0" layoutY="166.0" mnemonicParsing="false" onAction="#ok" prefHeight="26.0" prefWidth="55.0" text="OK" />-->
+        <ImageView fitHeight="85.0" fitWidth="83.0" layoutX="50.0" layoutY="180.0">
+            <image>
+                <Image url="@img/boardingpass-carryon.png" />
+            </image>
+        </ImageView>
+    </children>
+
+</AnchorPane>

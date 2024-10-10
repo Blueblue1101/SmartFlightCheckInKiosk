@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<TabPane fx:id="mealpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="group16.smartflightcheckinkiosk.Controller.MealChooseController">
+  <tabs>
+    <Tab text="Meal1">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <BorderPane prefHeight="366.0" prefWidth="594.0">
+                     <bottom>
+                        <Button fx:id="OrderMeal1" mnemonicParsing="false" onAction="#orderButtonClicked" text="order" BorderPane.alignment="CENTER" />
+                     </bottom>
+                     <top>
+                        <Label fx:id="LabelMeal1" text="Meal1 多少钱" BorderPane.alignment="CENTER" />
+                     </top>
+                     <center>
+                        <ImageView fitHeight="270.0" fitWidth="542.0" BorderPane.alignment="CENTER">
+                           <image>
+                              <Image url="@img/xhs.png" />
+                           </image>
+                        </ImageView>
+                     </center>
+                  </BorderPane>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+      <Tab text="Meal2">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <BorderPane prefHeight="366.0" prefWidth="594.0">
+                     <bottom>
+                        <Button fx:id="OrderMeal2" mnemonicParsing="false" onAction="#orderButtonClicked" text="order" BorderPane.alignment="CENTER" />
+                     </bottom>
+                     <top>
+                        <Label fx:id="LabelMeal2" text="Meal2 多少钱" BorderPane.alignment="CENTER" />
+                     </top>
+                     <center>
+                        <ImageView fitHeight="234.0" fitWidth="418.0" BorderPane.alignment="CENTER">
+                           <image>
+                              <Image url="@img/xc.png" />
+                           </image>
+                        </ImageView>
+                     </center>
+                  </BorderPane>
+               </children>
+            </AnchorPane>
+         </content>
+      </Tab>
+      <Tab text="Meal3">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <BorderPane prefHeight="366.0" prefWidth="594.0">
+                     <bottom>
+                        <Button fx:id="OrderMeal3" mnemonicParsing="false" onAction="#orderButtonClicked" text="order" BorderPane.alignment="CENTER" />
+                     </bottom>
+                     <top>
+                        <Label fx:id="LabelMeal3" text="Meal3 多少钱" BorderPane.alignment="CENTER" />
+                     </top>
+                     <center>
+                        <ImageView fitHeight="268.0" fitWidth="473.0" BorderPane.alignment="CENTER">
+                           <image>
+                              <Image url="@img/hg.png" />
+                           </image>
+                        </ImageView>
+                     </center>
+                  </BorderPane>
+               </children>
+            </AnchorPane>
+         </content>
+      </Tab>
+  </tabs>
+</TabPane>

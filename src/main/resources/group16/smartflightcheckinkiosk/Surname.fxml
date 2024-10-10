@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="toSurnamePage" prefHeight="200.0" prefWidth="437.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="group16.smartflightcheckinkiosk.Controller.SurnameController">
+   <children>
+      <AnchorPane layoutX="137.0" layoutY="-6.0" prefHeight="60.0" prefWidth="300.0" style="-fx-background-color: #87cefa;">
+         <children>
+            <Label fx:id="confirm3" layoutX="18.0" layoutY="20.0" prefHeight="21.0" prefWidth="264.0" text="Please Input Your Surname and ID Number">
+               <font>
+                  <Font name="Myanmar MN" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label fx:id="surname" layoutX="178.0" layoutY="69.0" text="Surname:" />
+      <Label fx:id="id_num" layoutX="178.0" layoutY="112.0" prefHeight="18.0" prefWidth="72.0" text="ID Number:" />
+      <TextField fx:id="surnameField" layoutX="255.0" layoutY="65.0" />
+      <TextField fx:id="id_numField" layoutX="255.0" layoutY="110.0" />
+      <Button fx:id="ok" layoutX="363.0" layoutY="159.0" mnemonicParsing="false" onAction="#ok" prefHeight="26.0" prefWidth="52.0" text="OK" />
+      <Button fx:id="back" layoutX="193.0" layoutY="159.0" mnemonicParsing="false" onAction="#back" prefHeight="26.0" prefWidth="52.0" style="-fx-background-color: #87cefa;" text="BACK" />
+      <ImageView fitHeight="87.0" fitWidth="82.0" layoutX="24.0" layoutY="11.0">
+         <image>
+            <Image url="@img/ticket.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="87.0" fitWidth="82.0" layoutX="24.0" layoutY="93.0">
+         <image>
+            <Image url="@img/id.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
