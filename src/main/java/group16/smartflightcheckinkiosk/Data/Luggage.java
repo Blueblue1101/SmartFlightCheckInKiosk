@@ -40,6 +40,7 @@ public class Luggage {
             }
         }
         catch (IOException e) {
+            //TODO: replace with a robust exception processor
             e.printStackTrace();
         }
     }
